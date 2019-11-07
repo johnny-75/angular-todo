@@ -1,0 +1,40 @@
+.todo-input {
+  display: flex;
+  margin: 5px;
+  flex: 12;
+}
+input[type=text] {
+  flex: 10;
+  border: none;
+  border-bottom: 1px solid lightslategray;
+  padding: 5px;
+  margin: 5px;
+  cursor: auto;
+}
+input[type=text]:focus {
+   border-bottom: 1px solid black;
+ }
+button{
+  flex: 2;
+  border: 1px solid dodgerblue;
+  color: darkslategrey;
+  background-color: white;
+  margin: 5px 0 5px 5px;
+}
+button:hover:enabled {
+  border: none;
+  background-color: dodgerblue;
+  color: #ffffff;
+}
+/*::placeholder { !* Chrome, Firefox, Opera, Safari 10.1+ *!*/
+/*  color: white;*/
+/*  opacity: 1; !* Firefox *!*/
+/*}*/
+
+/*:-ms-input-placeholder { !* Internet Explorer 10-11 *!*/
+/*  color: white;*/
+/*}*/
+
+/*::-ms-input-placeholder { !* Microsoft Edge *!*/
+/*  color: white;*/
+/*}*/

@@ -1,0 +1,5 @@
+<div class="todo-input">
+  <input type="text" placeholder="type here..." [(ngModel)]="title">
+  <button (click)="addTodo($event)">Add</button>
+</div>
+<app-todo-item *ngFor="let todo of todos" [todoItem]="todo" (delete)="handleDelete($event)"></app-todo-item>

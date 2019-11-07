@@ -1,0 +1,17 @@
+.header{
+  text-align: center;
+  color: white;
+  background-color: darkslategrey;
+  padding: 25px;
+}
+.title{
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.nav{
+  padding: 5px;
+}
+a{
+  color: white;
+  text-decoration: none;
+}

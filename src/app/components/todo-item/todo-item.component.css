@@ -1,0 +1,31 @@
+.todo{
+  display: flex;
+  margin: 5px;
+  padding: 3px;
+  background-color: whitesmoke;
+  border-bottom: 1px dotted gray;
+  /*flex-direction: row;*/
+}
+.todo-item {
+  flex: 12;
+ }
+
+.del {
+  padding: 5px 0 5px 0;
+  background-color: orangered;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  max-width: 25px;
+  max-height: 25px;
+  border: none;
+  flex: 4;
+}
+.del:hover {
+  border: 1px solid crimson;
+}
+.completed{
+  text-decoration: line-through;
+  color: gray;
+}
